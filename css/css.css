@@ -1,0 +1,85 @@
+html,body {
+	background: rgb(23, 32, 42);
+}
+
+.welcome{
+	font-family:"Comic sans MS";
+	color:white;
+	text-align: center;
+	font-size: 55px;
+}
+
+#work{
+	background: rgb(211,211,211);
+	height:470px;
+	font-size: 3.5em;
+	text-align: center;
+	font-family: 'lato';
+	padding-top: 2%;
+	/*z-index:2;*/
+	
+}
+
+#work button{
+	border-color: rgb(23, 32, 42);
+	background: none;
+	width:30%;
+	height: 10%;
+	font-family: 'Comic sans MS';
+	font-size: 0.5em;
+	
+}
+
+#btn1{
+	margin-top: -7%;
+}
+
+#btn2{
+	margin-top: -3%;
+}
+
+#work button:hover{
+	background-color: rgb(23, 32, 42);
+	color: white;
+}
+#work hr{
+	width:50%;
+	border-color: rgb(23, 32, 42);
+}
+.square{
+    width:200px;
+    height:140px;
+    font-size: 3em;
+    text-align: center;
+    font-family: "Eras Bold ITC";
+}
+
+.v{
+    border-left:1px solid rgb(23, 32, 42);
+    border-right:1px solid rgb(23, 32, 42);
+}
+
+.h{
+    border-top:1px solid rgb(23, 32, 42);
+    border-bottom:1px solid rgb(23, 32, 42);
+}
+
+#a{
+	/*z-index:-1;*/
+	
+}
+#b{
+	z-index:-1;
+
+}
+#c{
+
+}
+#c button{
+	background-color: #641E16;
+	border:none;
+	width: 100%;
+}
+#c button:hover{
+	border:none;
+}
